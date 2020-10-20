@@ -1,3 +1,5 @@
+// webpack.common.js
+
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const outputDir = "./dist";
@@ -73,7 +75,25 @@ module.exports = {
           "postcss-loader",
         ],
       },
-    ],
+    //   {
+        
+    //     test: /\.scss$/,
+    //     loader: 'style-loader!css-loader!sass-loader'
+    //   },
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [
+        {
+            loader: 'url-loader',
+            options: {
+            name: '[name].[ext]',
+            outputPath: 'fonts/',
+            publicPath: 'fonts/',
+            }
+        }
+        ]
+      }
+    ]
   },
   plugins: [
     new MiniCssExtractPlugin({

@@ -1,7 +1,7 @@
 {
-  "name": "js_project_skeleton",
+  "name": "skyline-stacker",
   "version": "1.0.0",
-  "description": "skeleton for new JS project",
+  "description": "JS project outline",
   "main": "index.js",
   "browserslist": [
     "last 1 version",
@@ -14,9 +14,11 @@
     "webpack:watch": "webpack --watch --config webpack.dev.js",
     "webpack:build": "webpack --config webpack.prod.js  --optimize-minimize"
   },
-  "author": "mrcjbradley",
+  "author": "rmiglin",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-optional-chaining": "^7.11.0",
@@ -37,5 +39,17 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmiglin/skyline-stacker.git"
+  },
+  "keywords": [
+    "JS",
+    "project"
+  ],
+  "bugs": {
+    "url": "https://github.com/rmiglin/skyline-stacker/issues"
+  },
+  "homepage": "https://github.com/rmiglin/skyline-stacker#readme"
 }

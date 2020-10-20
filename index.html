@@ -1,16 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+    <link rel="icon" type="image/png" href="./dist/images/skyscraper.jpg" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./dist/main.css" />
-    <title>Document</title>
-  </head>
+    <title>Skyline Stacker</title>
+</head>
 
-  <body>
-    <button id="canvas-demo">Canvas Demo</button>
-    <button id="DOM-demo">DOM Demo</button>
-    <script src="./dist/main.js"></script>
-  </body>
+<body>
+    <div class="header-div">
+        <div class="title-div">
+            <h1 class="skyline-title">Skyline</h1>
+            <h1 class="stacker-title">Stacker</h1>
+        </div>
+
+        <i class="fa fa-question-circle"></i>
+    </div>
+
+    <div class="canvas-div">
+        <img class="tower-img" src="./dist/images/statue-of-liberty.png" alt="statue of liberty">
+
+        <canvas id="canvas"></canvas>
+        <script src="./dist/main.js"></script>
+        <!-- <script src="./src/index.js"></script> -->
+
+        <div class="scores-div">
+            <h1>Health: </h1>
+            <h1>Time: </h1>
+            <div class="current-score-div">
+                <h1>Score:</h1>
+            </div>
+            <duv class="high-score-div">
+                <h1>High score:</h1>
+            </duv>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+        <h1 class="skyline-footer">ThisisRoss'SuperAwesomeJavascriptProjectThatWilBeTheBestOneEverCreatedForAppAcademy</h1>
+        <div class="footer-div">
+            <a href="https://github.com/rmiglin">
+                <i class="fa fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ross-miglin/">
+                <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://angel.co/u/ross-miglin">
+                <i class="fa fa-angellist"></i>
+            </a>
+        </div>
+        </div>
+    </footer>
+</body>
+
+
 </html>

@@ -1,3 +1,4 @@
+// wepack.dev.js
 const merge = require("webpack-merge");
 const common = require("./webpack.common.js");
 
@@ -7,6 +8,6 @@ module.exports = merge(common, {
   devServer: {
     contentBase: "./",
     watchContentBase: true,
-    open: "Google Chrome", // use "google-chrome" for PC
+    open: "Google Chrome",
   },
 });
