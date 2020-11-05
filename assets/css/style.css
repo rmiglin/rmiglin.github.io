@@ -575,3 +575,18 @@ a.icon-up-bg:hover {color: #212121;}
     color: #fff;
     text-align: center;
 }
+
+.coding-language-div {
+    /* display: table; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.coding-language {
+    vertical-align: middle;
+    margin-left: 5px;
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+}
