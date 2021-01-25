@@ -590,3 +590,7 @@ a.icon-up-bg:hover {color: #212121;}
     /* display: table-cell; */
     /* vertical-align: middle; */
 }
+
+.contact-intro {
+    margin-top: 10px;
+}
